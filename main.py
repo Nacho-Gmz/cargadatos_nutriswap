@@ -41,8 +41,8 @@ def insert_excel_to_postgresql(file_path, db_config, table_name):
 db_config = {
     'host': 'postgresql',     # Cambia según tu configuración
     'database': 'nutriswap',   # Nombre de tu base de datos
-    'user': 'proof_admin',      # Usuario de PostgreSQL
-    'password': 'conexion_s4gur0',  # Contraseña de PostgreSQL
+    'user': 'nutridev',      # Usuario de PostgreSQL
+    'password': 'admin123',  # Contraseña de PostgreSQL
 }
 
 # Parámetros del archivo Excel y la tabla
